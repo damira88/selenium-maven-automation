@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import javax.management.RuntimeErrorException;
@@ -66,6 +67,7 @@ Count of results should be displayed on the page
 				+ countResult +" results in "+location);
 	}
 	driver.close();
+	System.out.println("test completed -"+LocalDateTime.now());
 	}
 
 }
